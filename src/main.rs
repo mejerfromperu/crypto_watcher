@@ -5,6 +5,7 @@
 //mod tuples;
 //mod arrays;
 mod vectors;
+mod api_crypto;
 //use std::result;
 fn main() {
 
@@ -13,4 +14,5 @@ fn main() {
 
     //place holder fo debug
     // println!("{:?}", (12, true, "hello"))
+    api_crypto::run();
 }
