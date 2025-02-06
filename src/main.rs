@@ -4,15 +4,18 @@
 //mod strings;
 //mod tuples;
 //mod arrays;
-mod vectors;
+// mod vectors;
+// mod conditionals;
+// mod loops;
+mod functions;
 mod api_crypto;
 //use std::result;
 fn main() {
 
-    vectors::run();
+    functions::run();
     
 
     //place holder fo debug
     // println!("{:?}", (12, true, "hello"))
-    api_crypto::run();
+    // api_crypto::run();
 }
